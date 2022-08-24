@@ -12,18 +12,33 @@
 }
 .item1{
     background-color:  #cdfe40;
-    grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column: 1 / 1;
 }
 .item2{
     background-color: #75d00b;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column: 2 / 4;
 }
 .item3{
-    background-color: #75d00b;
-   
+    background-color: #2c9504;
+    grid-column: 1 / 3;
 }
+.item4{
+    background-color: #cdfe40;
+    grid-column: 3 / 4;
+}
+.item5{
+    background-color: #cdfe40;
+    grid-row: 3;
+}
+.item6{
+    background-color: #75d00b;
+    grid-row: 3;
+}
+.item7{
+    background-color: #2c9504;
+    grid-row: 3 / 3;
+}
+
 /* .item1{
     
     background-color: #cdfe40;
