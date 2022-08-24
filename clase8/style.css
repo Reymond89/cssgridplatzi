@@ -11,6 +11,7 @@ main{
     display: grid;
     grid-template-columns: minmax(300px, 2fr) 2fr;
     grid-template-rows: 550px;
+    
 }
 .hero-image{
     width: 100%;
@@ -19,7 +20,7 @@ main{
 }
 .info{
     align-self: center;
-    /* text-align: center; */
+    padding: 25px;
 
 }
 .hero__title{
