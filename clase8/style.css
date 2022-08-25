@@ -100,7 +100,7 @@ main{
     border-radius: 4px 120px;
     filter: drop-shadow(12px 16px 20px rgb(211, 184, 109));
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 600px){
     
     .hero{
         grid-template-columns: minmax(300px, 550px);
